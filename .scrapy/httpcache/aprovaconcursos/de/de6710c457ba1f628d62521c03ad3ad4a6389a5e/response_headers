@@ -1,0 +1,10 @@
+Via: 1.1 f3459bfce7b7b7b8e8bfb19301f39bef.cloudfront.net (CloudFront)
+X-Cache: Miss from cloudfront
+Content-Encoding: gzip
+Set-Cookie: PHPSESSID=rgi11nhadbg1m1pa37ifdjfb50; path=/
+Set-Cookie: exibirlinhaamarela1=sim; expires=Thu, 25-Jan-2018 18:01:29 GMT; Max-Age=31536000; path=/; httponly
+Server: nginx
+X-Amz-Cf-Id: u0HH2PYowAkSuooL5vfa3fEapdfA-Aw2jIIdw60iO3FHiyQKYK--Ew==
+Cache-Control: public, s-maxage=21600
+Date: Wed, 25 Jan 2017 18:01:29 GMT
+Content-Type: text/html; charset=UTF-8

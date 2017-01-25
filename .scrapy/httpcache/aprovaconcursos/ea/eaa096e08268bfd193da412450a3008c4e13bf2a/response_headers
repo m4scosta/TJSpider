@@ -1,0 +1,9 @@
+Via: 1.1 1ba29305dca2730d9184378daa205408.cloudfront.net (CloudFront)
+X-Cache: Miss from cloudfront
+Content-Encoding: gzip
+Set-Cookie: PHPSESSID=b6o17cb9t172k7p257hoh9gfa4; path=/
+Server: nginx
+X-Amz-Cf-Id: znJwA4Kw1CmGppBxylsOj3Iu2njA4mwovgbDh6XIndM0-ye8jDhniA==
+Cache-Control: public, s-maxage=21600
+Date: Wed, 25 Jan 2017 19:19:37 GMT
+Content-Type: text/html; charset=UTF-8
