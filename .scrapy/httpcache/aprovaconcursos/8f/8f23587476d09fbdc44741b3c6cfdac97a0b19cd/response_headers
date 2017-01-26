@@ -1,10 +1,10 @@
-Via: 1.1 f839d259257df785dfcd24faebc6d97b.cloudfront.net (CloudFront)
+Via: 1.1 fc8718fc654846d5ff65e1100874c1fc.cloudfront.net (CloudFront)
 X-Cache: Miss from cloudfront
 Content-Encoding: gzip
-Set-Cookie: PHPSESSID=7fp573jae76dqq8uv8t6cqcfq2; path=/
-Set-Cookie: exibirlinhaamarela1=sim; expires=Thu, 25-Jan-2018 18:38:29 GMT; Max-Age=31536000; path=/; httponly
+Set-Cookie: PHPSESSID=neve7oah0jpq4trj1ag627ui80; path=/
+Set-Cookie: exibirlinhaamarela1=sim; expires=Fri, 26-Jan-2018 00:22:19 GMT; Max-Age=31536000; path=/; httponly
 Server: nginx
-X-Amz-Cf-Id: kPgKCrLC1RGSugW5Evj9MzUZdEKUY_MQUiJOgmiy1N6mMOmSKQ0fgg==
+X-Amz-Cf-Id: Y-Lo271_QxvhOU1ZqIrqztAStu6hvr6StG41AEZ_v8Gjso9jNoqm4w==
 Cache-Control: public, s-maxage=21600
-Date: Wed, 25 Jan 2017 18:38:27 GMT
+Date: Thu, 26 Jan 2017 00:22:19 GMT
 Content-Type: text/html; charset=UTF-8

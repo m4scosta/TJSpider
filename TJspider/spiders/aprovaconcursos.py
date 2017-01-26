@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import re
 import scrapy
 from string import printable
 from TJspider.items import Questao
@@ -39,14 +40,15 @@ class AprovaconcursosSpider(scrapy.Spider):
         return q.css('.barra-top-2 span a::text')[0].extract()
 
     def parse_enunciado(self, q):
-        raw_enunciado = q.css('.enunciado *::text').extract()
-        return ''.join(map(lambda t: t.strip(), raw_enunciado))
+        selector = q.xpath('normalize-space(.//div[@class="enunciado row"])')
+        return selector.extract()[0]
 
     def parse_alternativas(self, q):
-        raw_texts = q.css('.alternativas .lbl *::text').extract()
-        text = ''.join(map(lambda t: t.strip(), raw_texts))
-        texts = text.strip('.').split('.')
-        return dict(map(lambda t: (t[0], t[2:]), texts))
+        alternativas = {}
+        for span in q.css('.alternativas .lbl span'):
+            txt = span.xpath('normalize-space(.)')[0].extract()
+            alternativas[txt[0]] = txt[2:].strip()
+        return alternativas
 
     def parse_resposta(self, q):
         selector = '.alternativas input[data-correta="1"]::attr(data-opcao)'

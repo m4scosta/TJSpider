@@ -1,11 +1,11 @@
-Via: 1.1 6d4f279872c65656b8091e5049114a8c.cloudfront.net (CloudFront)
+Via: 1.1 5d54f7d67ab3f1ccb26ae4de736754e1.cloudfront.net (CloudFront)
 X-Cache: Miss from cloudfront
 Content-Encoding: gzip
-Set-Cookie: www_aprovaconcursos=0emqrrioeedu44f1kjeodun57a1r8vn6; expires=Wed, 25-Jan-2017 20:38:19 GMT; Max-Age=7200; path=/; HttpOnly
+Set-Cookie: www_aprovaconcursos=82bnsqeqpn74lprtvtc4ptpgu0djccm7; expires=Thu, 26-Jan-2017 02:22:18 GMT; Max-Age=7200; path=/; HttpOnly
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Server: nginx
-X-Amz-Cf-Id: aC5_Cf2058OxYS8xvSxr9ULrtALhZInxfZk4MTUWFoZkN8C-JSuY-w==
+X-Amz-Cf-Id: CJqDTxYenVY-m16BpXAYLbORMB40eFTrLof_hqVD-XxoUxg_p79NOQ==
 Pragma: no-cache
 Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-Date: Wed, 25 Jan 2017 18:38:19 GMT
+Date: Thu, 26 Jan 2017 00:22:18 GMT
 Content-Type: text/html; charset=UTF-8
