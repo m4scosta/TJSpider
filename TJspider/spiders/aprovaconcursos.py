@@ -55,4 +55,4 @@ class AprovaconcursosSpider(scrapy.Spider):
         return q.css(selector)[0].extract().upper()
 
     def tem_imagem(selg, q):
-        return q.css('.alternativas img')
+        return q.css('.alternativas img') or q.css('.enunciado img')
